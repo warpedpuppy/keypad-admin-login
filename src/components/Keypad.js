@@ -1,6 +1,6 @@
 import React from 'react';
-import Button from 'react-bootstrap/Button'
-
+import Button from 'react-bootstrap/Button';
+import './Keypad.css';
 export default function Keypad (props) {
     const buttons = Array.from(Array(9).keys()).map((item) => {
         const buttonNum = item + 1
